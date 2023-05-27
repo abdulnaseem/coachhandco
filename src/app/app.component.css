@@ -39,21 +39,31 @@
     text-shadow: 2px 2px black;
   }
 
-  @media only screen and (max-width: 969px) {
+  @media only screen and (max-width: 767px) {
     .title {
         overflow-wrap: break-word;
         font-size: 66px;
+        font-size: 46px;
     }
     .subheading {
         font-size: 56px;
         margin-left: 0px;
+        font-size: 18px;
     }
     #banner-image {
         background-image: url("../assets/images/kenya3.jpeg");
     }
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 480) {
+    .title {
+        overflow-wrap: break-word;
+        font-size: 34px;
+    }
+    .subheading {
+        font-size: 17px;
+        margin-left: 0px;
+    }
     #banner-image {
         background-image: url("../assets/images/kenya3.jpeg");
     }
