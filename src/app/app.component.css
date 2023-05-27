@@ -1,0 +1,50 @@
+#banner-image {
+  /* The image used */
+  background-image: url("../assets/images/kenya2.jpeg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin: -10px;
+  margin-top: -25px;
+  opacity: 0.8;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 50px;
+  }
+
+  .title {
+    /* font-family: 'Satisfy', cursive; */
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 88px;
+    text-shadow: 3px 3px black;
+    overflow-wrap: normal;
+  }
+
+  .subheading {
+    font-family: 'Lobster', cursive;
+    margin-left: 2.7em;
+    color: white;
+    font-size: 76px;
+    text-shadow: 2px 2px black;
+  }
+
+  @media only screen and (max-width: 969px) {
+    .title {
+        overflow-wrap: break-word;
+        font-size: 66px;
+    }
+    .subheading {
+        font-size: 56px;
+        margin-left: 0px;
+    }
+  }
