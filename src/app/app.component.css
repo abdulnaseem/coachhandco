@@ -11,6 +11,7 @@
   margin: -10px;
   margin-top: -25px;
   opacity: 0.8;
+  /* border: 1px solid red; */
 }
 
 .centered {
@@ -25,14 +26,14 @@
     /* font-family: 'Satisfy', cursive; */
     font-family: 'Lobster', cursive;
     color: white;
-    font-size: 88px;
+    font-size: 80px;
     text-shadow: 3px 3px black;
     overflow-wrap: normal;
   }
 
   .subheading {
     font-family: 'Lobster', cursive;
-    margin-left: 2.7em;
+    margin-left: 2.2em;
     color: white;
     font-size: 76px;
     text-shadow: 2px 2px black;
