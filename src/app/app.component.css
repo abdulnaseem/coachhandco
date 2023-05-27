@@ -42,13 +42,11 @@
   @media only screen and (max-width: 1024px) {
     .title {
         overflow-wrap: break-word;
-        font-size: 66px;
         font-size: 54px;
     }
     .subheading {
-        font-size: 56px;
         margin-left: 0px;
-        font-size: 20px;
+        font-size: 31px;
     }
     #banner-image {
         background-image: url("../assets/images/kenya3.jpeg");
@@ -58,13 +56,11 @@
   @media only screen and (max-width: 767px) {
     .title {
         overflow-wrap: break-word;
-        font-size: 66px;
         font-size: 46px;
     }
     .subheading {
-        font-size: 56px;
         margin-left: 0px;
-        font-size: 18px;
+        font-size: 25px;
     }
     #banner-image {
         background-image: url("../assets/images/kenya3.jpeg");
@@ -77,7 +73,7 @@
         font-size: 34px;
     }
     .subheading {
-        font-size: 17px;
+        font-size: 21px;
         margin-left: 0px;
     }
     #banner-image {
