@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'coachh-co';
+
+  ids: Array<String> = ['one', 'two', 'three', 'four']
 }
