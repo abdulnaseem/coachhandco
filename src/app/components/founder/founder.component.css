@@ -81,3 +81,15 @@ h4 {
         width: 100%;
     }
 }
+
+@media only screen and (max-width: 669px) {
+    .founder-images {
+        width: 31em;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .founder-images {
+        width: 100%;
+    }
+}
