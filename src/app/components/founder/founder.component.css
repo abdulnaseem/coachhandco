@@ -76,7 +76,7 @@ h4 {
     text-align: center;
 }
 
-@media only screen and (max-width: 994px) {
+/* @media only screen and (max-width: 994px) {
     .founder-images {
         width: 100%;
     }
@@ -86,9 +86,9 @@ h4 {
     .founder-images {
         width: 31em;
     }
-}
+} */
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 576px) {
     .founder-images {
         width: 100%;
     }
