@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
+import { AfterViewInit, Component, ElementRef, OnInit, ViewChild, OnDestroy, EventEmitter, Output, Inject, Renderer2 } from '@angular/core';
+import { fromEvent, Subscription } from 'rxjs';
 
 
 @Component({
@@ -7,9 +9,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  
-
   ngOnInit() {
+    
   }
 
 
