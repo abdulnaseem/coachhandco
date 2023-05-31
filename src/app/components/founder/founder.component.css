@@ -76,6 +76,12 @@ h4 {
     text-align: center;
 }
 
+.qualifications {
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+}
+
 /* @media only screen and (max-width: 994px) {
     .founder-images {
         width: 100%;
@@ -89,6 +95,8 @@ h4 {
 } */
 
 @media only screen and (max-width: 767px) {
-
+    .col-lg-4 .col-md-4 .col-12 {
+        margin-top: 10px;
+    }
     
 }
