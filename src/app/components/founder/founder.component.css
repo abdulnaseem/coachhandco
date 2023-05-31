@@ -98,6 +98,14 @@ h4 {
     }
 } */
 
+.brawlers-boxing {
+    width: 100%;
+}
+
+.the-grapple-hub {
+    width: 80%;
+}
+
 @media only screen and (max-width: 767px) {
     .col-lg-4 .col-md-4 .col-12 {
         margin-top: 10px;
