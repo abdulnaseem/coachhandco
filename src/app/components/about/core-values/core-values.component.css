@@ -121,6 +121,15 @@ body{margin-top:20px;}
     height: 40px;
   }
 
+  .quote {
+    margin-top: 20px;
+  }
+
+  .signed {
+    font-family: 'Satisfy', cursive;
+    margin-top: -12px;
+  }
+
   @media only screen and (max-width: 480px) {
     .feature-box-1 {
       height: auto;
