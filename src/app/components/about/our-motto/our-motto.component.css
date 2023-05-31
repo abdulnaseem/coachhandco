@@ -15,3 +15,7 @@
     border-left: 5px solid #fc5356;
     padding-left: 15px;
 }
+
+.styled {
+    font-family: 'Satisfy', cursive;
+}

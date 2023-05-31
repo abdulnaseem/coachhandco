@@ -15,7 +15,7 @@ body{margin-top:20px;}
   -webkit-transition: ease all 0.35s;
   transition: ease all 0.35s;
   top: 0;
-  height: 15em;
+  height: 17em;
 }
 .feature-box-1 * {
   -moz-transition: ease all 0.35s;
@@ -76,6 +76,25 @@ body{margin-top:20px;}
   left: 0;
   right: auto;
 }
+
+.feature-box-2 {
+  padding: 32px;
+  box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+  margin: 15px 0;
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  -moz-transition: ease all 0.35s;
+  -o-transition: ease all 0.35s;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s;
+  top: 0;
+  height: 5em;
+  background: #20247b;
+  color: white;
+}
+
 .section {
     margin-top: -50px!important;
     /* padding: 100px 0; */
