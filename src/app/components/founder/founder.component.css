@@ -50,10 +50,10 @@ h3 {
 
 h4 {
     font-weight: 700;
-    color: #20247b;
+    color: #212529;
     font-size: 36px;
     margin: 0 0 15px;
-    border-left: 5px solid #fc5356;
+    border-left: 5px solid #0f52ab;
     padding-left: 15px;
 }
 
@@ -84,6 +84,14 @@ h4 {
     padding: 20px;
     background: white;
     box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+}
+
+.signed {
+    font-family: 'Satisfy', cursive;
+}
+
+.h {
+    width: 20%;
 }
 
 /* @media only screen and (max-width: 994px) {

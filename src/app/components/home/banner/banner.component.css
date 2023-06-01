@@ -1,16 +1,20 @@
 .signed {
-    /* font-family: 'Lobster', cursive; */
+    margin-top: 30px;
     font-family: 'Satisfy', cursive;
-    /* margin-left: 2.2em; */
-    /* text-shadow: 2px 2px black; */
+    
   }
+
+  /* .motto {
+    margin-top: 10px;
+  } */
 
   #home {
     margin-top: 8em;
   }
 
   .rey-btn {
-    border: 2px solid #070707;
+    border: 2px solid white;
+    color: white;
     padding: 10px 40px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -20,12 +24,17 @@
     transition: all 0.3s;
 }
 
-/* body, html {
+.rey-btn:hover {
+  background-color: #0f52ba;
+  border: 2px solid #0f52ba;
+}
+
+body, html {
     height: 100%;
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../../assets/images/banner.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../../assets/images/boxing-banner.jpg");
 
   height: 100%;
 
@@ -42,4 +51,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-} */
+}
+
+.logo {
+  width: 100%;
+}
