@@ -14,10 +14,10 @@ import { FounderComponent } from './components/founder/founder.component';
 import { BrawlersBoxingComponent } from './components/brawlers-boxing/brawlers-boxing.component';
 import { TheGrappleHubComponent } from './components/the-grapple-hub/the-grapple-hub.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { GalleryComponent } from './components/gallery/gallery.component';
 import { ServicesComponent } from './components/services/services.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { LightgalleryModule } from 'lightgallery/angular';
+import { GalleryComponent } from './components/gallery/gallery.component';
 
 
 @NgModule({
@@ -33,9 +33,9 @@ import { LightgalleryModule } from 'lightgallery/angular';
     FounderComponent,
     BrawlersBoxingComponent,
     TheGrappleHubComponent,
-    GalleryComponent,
     ServicesComponent,
-    ContactComponent
+    ContactComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,

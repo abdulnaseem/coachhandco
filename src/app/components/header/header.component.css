@@ -115,8 +115,13 @@ label #cancel {
     nav ul li {
         display: block;
         margin: 50px 0;
+        margin-bottom: -20px;
         line-height: 30px;
     }
+
+    /* nav ul li .first-nav {
+        margin-top: 40px;
+    } */
 
     nav ul li a {
         font-size: 20px;
