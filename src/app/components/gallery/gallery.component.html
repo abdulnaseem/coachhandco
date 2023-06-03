@@ -1,3 +1,25 @@
-<div class="container mt-5">
-    <p>Coming soon...</p>
+<div class="gallery-lightbox-container">
+    <div class="gallery">
+        <div *ngFor="let data of galleryData; let i = index" class="gallery-img">
+            <img (click)="onPreviewImg(i)" [src]="data.imageSrc" [alt]="data.imageAlt">
+        </div>
+    </div>
+    <div class="lightbox" *ngIf="showMask">
+        <span class="count" *ngIf="showCount">{{ currentIndex + 1 }}/{{ totalImgCount }}</span>
+
+        <button class="close-btn" *ngIf="previewImg">
+            <i class="fa fa-times"></i>
+        </button>
+        <button class="btn-lightbox-carousel btn-prev" *ngIf="controls">
+            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+        </button>
+        <button class="btn-lightbox-carousel btn-next" *ngIf="controls">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            
+        </button>
+        
+        <div class="lightbox-img" *ngIf="previewImg">
+            <img [src]="currentLightBoxImg.imageSrc" [alt]="currentLightBoxImg.imageAlt">
+        </div>
+    </div>
 </div>

@@ -66,4 +66,27 @@
     <!--enr row-->
 </div>
 
-
+<!-- <app-gallery [galleryData]="data" [showCount]="true"></app-gallery> -->
+<div class="container">
+    <lightgallery [settings]="settings" [onBeforeSlide]="onBeforeSlide">
+        <a class="gallery-item"
+        data-src="../../../assets/images/bb2.jpeg"
+        data-responsive="../../../assets/images/bb2.jpeg 1000"
+        data-sub-html="<h4>Brawlers Boxing</h4> <p> Location - Shadwell</p>">
+        <img class="img-responsive group"
+            src="../../../assets/images/bb2.jpeg" />
+        </a>
+        <a class="gallery-item"
+            data-src="../../../assets/images/bb3.jpeg"
+            data-responsive="../../../assets/images/bb3.jpeg 800">
+            <img class="img-responsive"
+            src="../../../assets/images/bb3.jpeg" />
+        </a>
+        <a class="gallery-item"
+            data-src="../../../assets/images/bb-faim.jpeg"
+            data-responsive="../../../assets/images/bb-faim.jpeg 800">
+            <img class="img-responsive"
+                src="../../../assets/images/bb-faim.jpeg" />
+        </a>
+    </lightgallery>
+</div>

@@ -1,0 +1,101 @@
+:host {
+    display: block;
+    text-align: center;
+}
+
+.gallery-lightbox-container {
+    position: relative;
+    display: inline-block;
+    padding: 25px;
+    
+}
+
+.gallery-lightbox-container .gallery {
+    line-height: 0;
+    column-count: 3;
+    column-gap: 30px;
+
+}
+
+.gallery-lightbox-container .gallery .gallery-img img {
+    width: 100%;
+    height: auto;
+    cursor: zoom-in;
+    border-radius: .35rem;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 5px 0 rgb(0, 0, 0, .21);
+}
+
+.gallery-lightbox-container .lightbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, .85);
+}
+
+.gallery-lightbox-container .lightbox .count {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 7%;
+    height: 10%;
+    color: white;
+    opacity: 0.7;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-top: 5em;
+}
+
+.gallery-lightbox-container .lightbox .close-btn { 
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 7%;
+    height: 10%;
+    z-index: 2;
+    margin-top: 5em;
+}
+
+.gallery-lightbox-container .lightbox .close-btn:hover { 
+    color: #FFD700;
+}
+
+
+.gallery-lightbox-container .lightbox .close-btn .fa.fa-times { 
+    font-size: 25px;
+}
+
+.gallery-lightbox-container .lightbox .btn-lightbox-carousel {
+    position: absolute;
+    z-index: 1;
+    width: 8%;
+    height: 8%;
+    padding: 0;
+    color: white;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.gallery-lightbox-container .lightbox .btn-lightbox-carousel .btn-prev { 
+    margin-right: 20em;
+}
+
+.gallery-lightbox-container .lightbox .btn-lightbox-carousel .btn-next { 
+    right: 0;
+}
+

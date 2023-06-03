@@ -17,6 +17,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { ServicesComponent } from './components/services/services.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { LightgalleryModule } from 'lightgallery/angular';
+
 
 @NgModule({
   declarations: [
@@ -38,7 +40,8 @@ import { ContactComponent } from './components/contact/contact.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    LightgalleryModule
   ],
   providers: [],
   bootstrap: [AppComponent]
