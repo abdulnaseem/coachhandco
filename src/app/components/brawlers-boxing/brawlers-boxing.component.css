@@ -35,10 +35,6 @@ body {
     height: 100vh;
 }
 
-.container {
-    text-align: center;
-}
-
 a {
     cursor: pointer;
 }
@@ -52,7 +48,6 @@ a {
 
 .img-responsive {
     width:30%;
-    text-align: center;
 }
 
 
