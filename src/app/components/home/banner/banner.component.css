@@ -60,7 +60,7 @@ body, html {
 @media only screen and (max-width: 860px) { 
   .logo {
     margin-top: 50px;
-    width: 100%;
+    width: 22em;
   }
 
   .motto {
