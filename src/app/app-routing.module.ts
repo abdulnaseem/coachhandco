@@ -3,8 +3,11 @@ import { NgModule } from '@angular/core';
 import { ExtraOptions, RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './components/about/about.component';
 import { BrawlersBoxingComponent } from './components/brawlers-boxing/brawlers-boxing.component';
+import { ContactComponent } from './components/contact/contact.component';
 import { FounderComponent } from './components/founder/founder.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
 import { HomeComponent } from './components/home/home.component';
+import { ServicesComponent } from './components/services/services.component';
 import { TheGrappleHubComponent } from './components/the-grapple-hub/the-grapple-hub.component';
 
 const routerOptions: ExtraOptions = {
@@ -28,6 +31,10 @@ const routes: Routes = [
     component: AboutComponent
   },
   {
+    path: 'services',
+    component: ServicesComponent
+  },
+  {
     path: 'founder',
     component: FounderComponent
   },
@@ -38,6 +45,14 @@ const routes: Routes = [
   {
     path: 'the-grapple-hub',
     component: TheGrappleHubComponent
+  },
+  {
+    path: 'gallery',
+    component: GalleryComponent
+  },
+  {
+    path: 'contact',
+    component: ContactComponent
   }
 ];
 

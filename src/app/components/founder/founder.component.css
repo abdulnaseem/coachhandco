@@ -86,6 +86,13 @@ h4 {
     box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
 }
 
+.sport-qualifications {
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+    padding-bottom: 50px;
+}
+
 .signed {
     font-family: 'Satisfy', cursive;
 }
@@ -112,6 +119,34 @@ h4 {
 
 .the-grapple-hub {
     width: 80%;
+}
+
+.rey-btn-see {
+    border: 2px solid #212529;
+    color: #212529;
+    background-color: white;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 50px;
+    transition: all 0.3s;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    
+}
+
+.rey-btn-see:hover {
+  background-color: #0f52ba;
+  color: white;
+  border: 2px solid #0f52ba;
+}
+
+iframe {
+    width: 50%;
+    height: 20em;
 }
 
 @media only screen and (max-width: 767px) {
