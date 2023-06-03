@@ -23,6 +23,10 @@ body {
     margin-top: 7em;
 }
 
+.carousel-inner {
+    height: 50%;
+}
+
 @media only screen and (max-width: 767px) {
     .container {
         margin-top: 7em;

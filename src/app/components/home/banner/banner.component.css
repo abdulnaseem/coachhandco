@@ -4,9 +4,9 @@
     
   }
 
-  /* .motto {
+  .motto {
     margin-top: 10px;
-  } */
+  }
 
   #home {
     margin-top: 8em;
@@ -54,5 +54,17 @@ body, html {
 }
 
 .logo {
-  width: 100%;
+  width: 60%;
+}
+
+@media only screen and (max-width: 860px) { 
+  .logo {
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  .motto {
+    margin-top: 20px;
+    font-size: 18px;
+  }
 }

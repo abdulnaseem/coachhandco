@@ -13,6 +13,7 @@ import { CoreValuesComponent } from './components/about/core-values/core-values.
 import { FounderComponent } from './components/founder/founder.component';
 import { BrawlersBoxingComponent } from './components/brawlers-boxing/brawlers-boxing.component';
 import { TheGrappleHubComponent } from './components/the-grapple-hub/the-grapple-hub.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { TheGrappleHubComponent } from './components/the-grapple-hub/the-grapple
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
