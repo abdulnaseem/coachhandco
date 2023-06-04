@@ -3,12 +3,6 @@ import { BeforeSlideDetail } from 'lightgallery/lg-events';
 import { LightGallery } from 'lightgallery/lightgallery';
 import lgZoom from 'lightgallery/plugins/zoom';
 
-
-interface Item {
-  imageSrc: string,
-  imageAlt: string
-}
-
 @Component({
   selector: 'app-brawlers-boxing',
   templateUrl: './brawlers-boxing.component.html',

@@ -19,9 +19,30 @@ body {
     margin-top: 7em;
 }
 
+a {
+    cursor: pointer;
+}
+
+.gallery-item {
+    margin: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-responsive {
+    width:30%;
+    margin-top: 5px;
+}
+
 @media only screen and (max-width: 767px) {
     .container {
         margin-top: 7em;
+    }
+
+    .img-responsive {
+        width:90%;
+        margin: 5px;
     }
 }
 
