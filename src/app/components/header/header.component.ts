@@ -7,8 +7,15 @@ import { Component, OnInit} from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+
+  toggleMenu = false;
+
   ngOnInit(): void {
-    
+    console.log(this.toggleMenu);
+  }
+
+  onMenuToggle() {
+    this.toggleMenu = !this.toggleMenu;
   }
 
 
