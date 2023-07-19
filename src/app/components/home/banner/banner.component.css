@@ -63,8 +63,59 @@ body, html {
   color: white;
 }
 
+.hero-text2 {
+  color: #777;
+  background-color:white;
+  padding: 50px 80px;
+  width: 100%;
+  text-align: center;
+}
+
 .logo {
   width: 60%;
+}
+
+.bgimg-1 {
+  /* The image used */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../../assets/images/boxing-banner.jpg");
+
+  /* Set a specific height */
+  min-height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-2 {
+  /* The image used */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../../assets/images/kenya2.jpeg");
+
+  /* Set a specific height */
+  min-height: 80%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.learn-more {
+  border: 2px solid #070707;
+  color: #070707;
+}
+
+.learn-more:hover {
+  border: 2px solid #0f52ba;
+  color: white;
+}
+
+.obj-text {
+  color: #212529;
+  font-size: 18px;
 }
 
 @media only screen and (max-width: 860px) { 
@@ -79,7 +130,7 @@ body, html {
   }
 }
 
-@media (hover: none){
+@media (hover:hover){
     
   h2.motto:hover {
     font-size: 40px;
