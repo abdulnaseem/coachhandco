@@ -27,6 +27,7 @@
     "bootstrap-icons": "^1.10.5",
     "express": "^4.18.2",
     "lightgallery": "^2.7.1",
+    "ngx-owl-carousel-o": "^14.0.1",
     "path": "^0.12.7",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",

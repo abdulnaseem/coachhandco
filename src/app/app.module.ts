@@ -13,11 +13,12 @@ import { CoreValuesComponent } from './components/about/core-values/core-values.
 import { FounderComponent } from './components/founder/founder.component';
 import { BrawlersBoxingComponent } from './components/brawlers-boxing/brawlers-boxing.component';
 import { TheGrappleHubComponent } from './components/the-grapple-hub/the-grapple-hub.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbCarouselModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ServicesComponent } from './components/services/services.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { LightgalleryModule } from 'lightgallery/angular';
 import { GalleryComponent } from './components/gallery/gallery.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 
 @NgModule({
@@ -41,7 +42,9 @@ import { GalleryComponent } from './components/gallery/gallery.component';
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    LightgalleryModule
+    LightgalleryModule,
+    NgbCarouselModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
