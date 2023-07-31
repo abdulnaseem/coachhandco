@@ -19,6 +19,13 @@ body {
     margin-top: 7em;
 }
 
+div.text-center {
+    margin-top: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #212529;
+}
+
 a {
     cursor: pointer;
 }
@@ -31,8 +38,15 @@ a {
 }
 
 .img-responsive {
-    width:30%;
+    width:300px;
+    height: 300px;
     margin-top: 5px;
+    transition: ease all 0.35s;
+}
+
+.img-responsive:hover {
+    width:310px;
+    height: 310px;
 }
 
 @media only screen and (max-width: 767px) {

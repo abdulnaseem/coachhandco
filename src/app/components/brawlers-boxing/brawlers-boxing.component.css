@@ -26,6 +26,13 @@ body {
     margin-top: 7em;
 }
 
+div.text-center {
+    margin-top: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #212529;
+}
+
 .carousel-inner {
     height: 50%;
 }
@@ -47,8 +54,15 @@ a {
 }
 
 .img-responsive {
-    width:30%;
+    width:300px;
+    height: 300px;
     margin-top: 5px;
+    transition: ease all 0.35s;
+}
+
+.img-responsive:hover {
+    width:310px;
+    height: 310px;
 }
 
 
@@ -59,6 +73,7 @@ a {
 
     .img-responsive {
         width:90%;
+        height: auto;
         margin: 5px;
     }
 }
