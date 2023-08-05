@@ -84,3 +84,11 @@ a {
         margin-right: 10px;
     } */
 }
+
+@media (hover: none) and (pointer: coarse) {
+    /* Smartphones and touchscreens */
+    .img-responsive:hover {
+        width:310px;
+        height: 310px;
+    }
+}
