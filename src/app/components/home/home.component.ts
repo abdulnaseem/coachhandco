@@ -1,8 +1,5 @@
 import { Component } from '@angular/core';
-// import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
-// import { NgIf } from '@angular/common';
-import { OwlOptions } from 'ngx-owl-carousel-o';
-
+const AOS = require('aos');
 
 @Component({
   selector: 'app-home',
@@ -11,14 +8,8 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 })
 export class HomeComponent {
   name = 'Angular';
-  isActive = 1;
 
-  next() {
-    if (this.isActive == 3) this.isActive = 0;
-    this.isActive ++;
-  }
-  pre() {
-    this.isActive --;
-    if (this.isActive == 0) this.isActive = 3;
+  ngOnInit() {
+    AOS.init();
   }
 }
