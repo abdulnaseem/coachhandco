@@ -118,6 +118,12 @@ body, html {
   font-size: 18px;
 }
 
+@media only screen and (max-width: 1000px) { 
+  .hero-text2 {
+    padding: 50px 30px;
+  }
+}
+
 @media only screen and (max-width: 860px) { 
   .logo {
     margin-top: 50px;
